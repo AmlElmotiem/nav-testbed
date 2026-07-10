@@ -10,6 +10,12 @@ repeatable, quantitative tests rather than one-off manual checks. This
 project builds that kind of test harness around an ArUco-marker pose
 tracker.
 
+![Accuracy vs. distance, across tilt angles](docs/parameter_study.png)
+
+*Output of `scripts/run_parameter_study.py`: position accuracy stays tight
+and degrades predictably with distance (left); orientation accuracy is
+inconsistent (right) due to the planar pose ambiguity discussed below.*
+
 ## What it does
 
 - **Tracking module** (`nav_testbed.tracking`) — detects ArUco fiducial
