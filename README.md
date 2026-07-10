@@ -10,6 +10,12 @@ repeatable, quantitative tests rather than one-off manual checks. This
 project builds that kind of test harness around an ArUco-marker pose
 tracker.
 
+<img src="docs/sample_marker.png" alt="A synthetically rendered ArUco marker, tilted 20 degrees at 0.5m" width="260" />
+
+*A marker rendered at a known, exact position (0.5m away, tilted 20°) —
+this is the "ground truth" input the tracker is tested against, with no
+real camera required.*
+
 ![Accuracy vs. distance, across tilt angles](docs/parameter_study.png)
 
 *Output of `scripts/run_parameter_study.py`: position accuracy stays tight
