@@ -14,7 +14,8 @@ tracker.
 
 *Output of `scripts/run_parameter_study.py`: position accuracy stays tight
 and degrades predictably with distance (left); orientation accuracy is
-inconsistent (right) due to the planar pose ambiguity discussed below.*
+inconsistent (right) due to the planar pose ambiguity discussed below.
+Raw numbers behind this chart: [docs/sample_results.csv](docs/sample_results.csv).*
 
 ## What it does
 
